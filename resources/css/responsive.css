@@ -1,0 +1,191 @@
+
+
+/**************************
+
+
+
+1.Keep the file in CSS folder & link the file in "<head>".
+2.There is a new class added which is ".slide_img" Search it here & put it on the img tag of "smrtslide customfade" div.   
+3.Hopefully it will run.
+
+
+
+******************************/
+
+
+
+@media screen and (min-width: 768px)
+{
+	.container {		
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+	}
+	
+	
+	.slide_img{
+	width: 250px !important;
+    height: 450px !important;
+    margin-top: 50px;
+	}
+	/*.f-width {
+    width: 90% !important;
+    margin-left: 50px !important;
+	}*/
+	.slideitem {
+    margin-right: 40px;
+    }
+	h2{
+		width:90%;
+	}
+	.header-background{
+		height: 170vh !important;
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 767px)
+{
+	.container{
+		padding-left:20px !important;
+		padding-right:20px !important;
+	}
+	.navbar-default .navbar-toggle{
+		border-color:transparent !important;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent !important;
+	}
+	.navbar-toggle .icon-bar {
+    width: 25px;
+    height: 4px;
+	background-color:#fff !important;
+	}
+	.navbar-toggle{
+		padding: 20px 10px; 
+	}
+	.navbar-collapse {
+		border-color: transparent !important;
+		margin-left: -21px !important;
+		background: #292929;
+		width: 107%;
+		border-top: 1px solid #292929 !important;
+	}
+	.mlogin{
+		width:30%;
+		background:none;
+	}
+	.modal-content{
+		margin-left:35%;
+	}
+	.slide_img {
+    width: 250px;
+    height: 500px;
+	margin-left:-20px;
+	}
+	.dot{
+		margin-right:20px !important;
+		width:275px !important;
+	}
+	.slideitem{
+		margin-top: 75px !important;
+	}
+	.feature h2{
+		width:95%;
+		
+	}
+	.support h1{
+		width:
+	}
+	.header-background{
+		height: 170vh !important;
+	}
+    
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px){
+	.container{
+		padding-left:20px !important;
+		padding-right:20px !important;
+	}
+	.navbar-collapse {
+		border-color: transparent !important;
+		margin-left: -21px !important;
+		background: #292929;
+		width: 110%;
+		border-top: 1px solid #292929 !important;
+	}
+	.navbar-default .navbar-toggle{
+		border-color:transparent !important;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: transparent !important;
+	}
+	.navbar-toggle .icon-bar {
+		width: 25px;
+		height: 4px;
+		background-color:#fff !important;
+	}
+	.navbar-toggle{
+		padding: 20px 10px; 
+	}
+	.mlogin{
+		width:30%;
+		background:none;
+	}
+	.modal-content{
+		margin-left:10%;
+	}
+	.feature h2{
+		width:95%;
+		font-size:20px;
+		
+	}
+	.feature p{
+		width: 95%;
+		font-size: 15px;
+		margin-left: 10px
+	}
+	.jumbh1{
+		font-size: 35px;
+		margin-top: 40px;
+	}
+	.jumbotron p {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 5px;
+	}
+	.jumbotron{
+		margin-top:20px;
+	}
+	.slide_img {
+    width: 170px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: -30px
+	}
+	.dot{
+		margin-right:20px !important;
+		width:245px !important;
+	}
+	.slideitem{
+		margin-top:0 !important;
+	}
+	.feature{
+		height:730px;
+	}
+	.support{
+		height:450px;
+	}
+	.header-background{
+		height: 170vh !important;
+	}
+
+}
+
+
+
+
+
+
+
+
